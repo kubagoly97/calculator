@@ -1,0 +1,65 @@
+html {
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgb(188, 178, 134);
+}
+
+body {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.but {
+    background-color: rgb(107, 132, 123);
+    color: white;
+    width: 38px;
+    height: 38px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    border: 14px;
+}
+
+#calculator {
+    text-align: center;
+    background-color: rgb(62, 98, 117);
+    border: solid 3px rgb(27, 27, 34);
+    width: 300px;
+    height: 440px;
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px rgb(98, 96, 96);
+}
+
+#score {
+    padding: 20px 40px;
+    border: solid 2px rgb(46, 45, 45);
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    margin-bottom: 9px;
+    background-color: rgb(210, 210, 210);
+    transition: 0.3s;
+}
+
+#name {
+    color: rgb(255, 255, 255)
+}
+
+#deleteb {
+    width: 96px;
+    background-color: rgb(192, 110, 110)
+}
+
+.but:hover {
+    background-color: rgb(75, 124, 104);
+    border: 1px solid rgb(65, 108, 91);
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+#deleteb:hover {
+    box-shadow: 1px 1px 3px rgb(132, 41, 41);
+    /* box-shadow: rgb(91, 157, 223); */
+}
